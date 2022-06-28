@@ -1,1 +1,46 @@
 project testing
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject
+$ git init
+Initialized empty Git repository in E:/myproject/.git/
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        testing.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject (master)
+$ git add .
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject (master)
+$ git commit -m "initial commit"
+[master (root-commit) 928ab61] initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testing.txt
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject (master)
+$ git remote add origin https://github.com/eshwarsai0394/myproject.git
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 230 bytes | 230.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/eshwarsai0394/myproject.git
+ * [new branch]      master -> master
+
+LENOVO@DESKTOP-CMKLB7Q MINGW64 /e/myproject (master)
+$
